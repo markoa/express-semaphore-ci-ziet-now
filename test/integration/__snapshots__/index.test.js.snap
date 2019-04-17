@@ -2,6 +2,6 @@
 
 exports[`:index [GET /] Should get server is running response 1`] = `
 Object {
-  "text": "Hello from express server.",
+  "text": "Hello again from express server.",
 }
 `;
