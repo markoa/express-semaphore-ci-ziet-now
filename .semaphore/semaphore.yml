@@ -78,7 +78,7 @@ blocks:
             - cache restore client-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum package-lock.json),client-node-modules-$SEMAPHORE_GIT_BRANCH,client-node-modules-master
             - npm test
 
-   - name: Deploy
+  - name: Deploy
     task:
       secrets:
         - name: zeit-now
